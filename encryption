@@ -1,0 +1,6 @@
+def encrypt(x):
+    y = x.replace(" ", "")
+    y = y[::-1]
+    print(y)
+
+encrypt("your password is encrypted")
