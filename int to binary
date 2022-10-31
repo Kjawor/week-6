@@ -1,0 +1,8 @@
+def pos(x):
+    if x < 0:
+        print("only use positive numbers")
+    else:
+        return "{0:b}".format(x)
+
+print(pos(50))
+        
