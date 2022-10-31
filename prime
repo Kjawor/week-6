@@ -1,0 +1,10 @@
+def prime(x):
+    if x > 1:
+        for i in range(2,x): //starting from 2 as any number can be divided by 1
+            if x % i == 0: // if the number can be divided by any number ranging from 2 to the current number then it is not a prime
+
+                print("not prime")
+                break
+            else:
+                print("prime")
+prime(3)
