@@ -1,6 +1,10 @@
-def encrypt(x):
-    y = x.replace(" ", "")
-    y = y[::-1]
-    print(y)
+import random
+string_name = input()
+x = random.randint(2,20)
+y = x * "xy"
+print (x)
+print(y)
 
-encrypt("your password is encrypted")
+for element in string_name:
+    print(element, end=y)
+    
