@@ -1,1 +1,4 @@
-
+user = input()
+if 'xy' in user:
+    user = user.replace('xy', "")
+    print (user)
